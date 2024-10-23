@@ -1,0 +1,110 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="800" fill="#f0f9ff"/>
+    
+    <!-- S形主路径背景 -->
+    <path d="M 50 700 
+             H 750 
+             C 770 700 770 600 750 600 
+             H 50 
+             C 30 600 30 500 50 500 
+             H 750
+             C 770 500 770 400 750 400
+             H 50
+             C 30 400 30 300 50 300
+             H 750
+             C 770 300 770 200 750 200
+             H 50
+             C 30 200 30 100 50 100
+             H 750" 
+          fill="none" stroke="#ddd" stroke-width="60"/>
+
+    <!-- 路径格子 -->
+    <!-- 第一行 (从下往上) -->
+    <circle cx="100" cy="700" r="25" fill="#FFB74D"/>
+    <circle cx="180" cy="700" r="25" fill="#4CAF50"/>
+    <circle cx="260" cy="700" r="25" fill="#4CAF50"/>
+    <circle cx="340" cy="700" r="25" fill="#F44336"/>
+    <circle cx="420" cy="700" r="25" fill="#4CAF50"/>
+    <circle cx="500" cy="700" r="25" fill="#9C27B0"/>
+    <circle cx="580" cy="700" r="25" fill="#F44336"/>
+    <circle cx="660" cy="700" r="25" fill="#4CAF50"/>
+    
+    <!-- 第二行 -->
+    <circle cx="100" cy="600" r="25" fill="#4CAF50"/>
+    <circle cx="180" cy="600" r="25" fill="#F44336"/>
+    <circle cx="260" cy="600" r="25" fill="#9C27B0"/>
+    <circle cx="340" cy="600" r="25" fill="#4CAF50"/>
+    <circle cx="420" cy="600" r="25" fill="#F44336"/>
+    <circle cx="500" cy="600" r="25" fill="#4CAF50"/>
+    <circle cx="580" cy="600" r="25" fill="#9C27B0"/>
+    <circle cx="660" cy="600" r="25" fill="#F44336"/>
+    
+    <!-- 第三行 -->
+    <circle cx="100" cy="500" r="25" fill="#F44336"/>
+    <circle cx="180" cy="500" r="25" fill="#4CAF50"/>
+    <circle cx="260" cy="500" r="25" fill="#F44336"/>
+    <circle cx="340" cy="500" r="25" fill="#9C27B0"/>
+    <circle cx="420" cy="500" r="25" fill="#4CAF50"/>
+    <circle cx="500" cy="500" r="25" fill="#F44336"/>
+    <circle cx="580" cy="500" r="25" fill="#4CAF50"/>
+    <circle cx="660" cy="500" r="25" fill="#9C27B0"/>
+    
+    <!-- 第四行 -->
+    <circle cx="100" cy="400" r="25" fill="#9C27B0"/>
+    <circle cx="180" cy="400" r="25" fill="#F44336"/>
+    <circle cx="260" cy="400" r="25" fill="#4CAF50"/>
+    <circle cx="340" cy="400" r="25" fill="#F44336"/>
+    <circle cx="420" cy="400" r="25" fill="#9C27B0"/>
+    <circle cx="500" cy="400" r="25" fill="#4CAF50"/>
+    <circle cx="580" cy="400" r="25" fill="#F44336"/>
+    <circle cx="660" cy="400" r="25" fill="#4CAF50"/>
+    
+    <!-- 第五行 -->
+    <circle cx="100" cy="300" r="25" fill="#4CAF50"/>
+    <circle cx="180" cy="300" r="25" fill="#9C27B0"/>
+    <circle cx="260" cy="300" r="25" fill="#F44336"/>
+    <circle cx="340" cy="300" r="25" fill="#4CAF50"/>
+    <circle cx="420" cy="300" r="25" fill="#F44336"/>
+    <circle cx="500" cy="300" r="25" fill="#9C27B0"/>
+    <circle cx="580" cy="300" r="25" fill="#4CAF50"/>
+    <circle cx="660" cy="300" r="25" fill="#F44336"/>
+    
+    <!-- 第六行 -->
+    <circle cx="100" cy="200" r="25" fill="#F44336"/>
+    <circle cx="180" cy="200" r="25" fill="#4CAF50"/>
+    <circle cx="260" cy="200" r="25" fill="#9C27B0"/>
+    <circle cx="340" cy="200" r="25" fill="#F44336"/>
+    <circle cx="420" cy="200" r="25" fill="#4CAF50"/>
+    <circle cx="500" cy="200" r="25" fill="#F44336"/>
+    <circle cx="580" cy="200" r="25" fill="#9C27B0"/>
+    <circle cx="660" cy="200" r="25" fill="#4CAF50"/>
+    
+    <!-- 最后一行 -->
+    <circle cx="100" cy="100" r="25" fill="#4CAF50"/>
+    <circle cx="180" cy="100" r="25" fill="#F44336"/>
+    <circle cx="260" cy="100" r="25" fill="#4CAF50"/>
+    <circle cx="340" cy="100" r="25" fill="#9C27B0"/>
+    <circle cx="420" cy="100" r="25" fill="#F44336"/>
+    <circle cx="500" cy="100" r="25" fill="#4CAF50"/>
+    <circle cx="580" cy="100" r="25" fill="#F44336"/>
+    <circle cx="660" cy="100" r="25" fill="#FFB74D"/>
+
+    <!-- 指示箭头 -->
+    <!-- 第一行向左箭头 -->
+    <path d="M 720 700 L 680 700 L 690 690 M 680 700 L 690 710" fill="none" stroke="white" stroke-width="3"/>
+    <!-- 第二行向右箭头 -->
+    <path d="M 80 600 L 120 600 L 110 590 M 120 600 L 110 610" fill="none" stroke="white" stroke-width="3"/>
+    <!-- 依此类推 -->
+    
+    <!-- 图例 -->
+    <rect x="10" y="10" width="160" height="140" fill="white" stroke="#666"/>
+    <circle cx="30" cy="35" r="10" fill="#4CAF50"/>
+    <text x="50" y="40" font-size="12">教学区</text>
+    <circle cx="30" cy="65" r="10" fill="#9C27B0"/>
+    <text x="50" y="70" font-size="12">运动区</text>
+    <circle cx="30" cy="95" r="10" fill="#F44336"/>
+    <text x="50" y="100" font-size="12">公共区</text>
+    <circle cx="30" cy="125" r="10" fill="#FFB74D"/>
+    <text x="50" y="130" font-size="12">起点/终点</text>
+</svg>
